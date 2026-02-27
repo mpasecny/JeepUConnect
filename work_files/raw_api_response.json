@@ -1,0 +1,962 @@
+{
+  "https://channels.sdpr-01.fcagcv.com/v4/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles": {
+    "userid": "7f8edc00b9f6491e8963f106afda53f1",
+    "version": 1770483439409,
+    "vehicles": [
+      {
+        "color": "BLACK C\\/C",
+        "year": 2021,
+        "tsoBodyCode": "JL",
+        "navEnabledHU": false,
+        "isCompanyCar": false,
+        "radio": "",
+        "vin": "1C4JJXR66MW811502",
+        "company": "FCA",
+        "model": "688",
+        "tcuType": "2",
+        "make": "Jeep",
+        "brandCode": "57",
+        "soldRegion": "EMEA",
+        "svla": {
+          "status": "INACTIVE",
+          "timestamp": 0
+        },
+        "market": "CZ",
+        "modelDescription": "WRANGLER PHEV",
+        "fuelType": "H",
+        "tsoModelYear": "2021",
+        "sdp": "IGNITE",
+        "subMake": "Jeep",
+        "regStatus": "COMPLETED_STAGE_3",
+        "language": "",
+        "customerRegStatus": "Y",
+        "activationSource": "DEALER",
+        "nickname": "Wrangler Black",
+        "regTimestamp": 1770483439409,
+        "services": [
+          {
+            "vehicleCapable": true,
+            "service": "RDL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "RDU",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "ROSECUREDELIVERY",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "SQDF",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": false,
+            "service": "VHSG",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "SDV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ASSIST",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "ROC",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": true,
+            "service": "SOS",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": true,
+            "service": "ASOS",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": true,
+            "service": "VF",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "SVLA",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROCRANKINHIBITON",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROCRANKINHIBITOFF",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROLIGHTS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "TA",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "VRC",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": true,
+            "service": "DTC",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "HUC",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": true,
+            "service": "AOTAC",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": true,
+            "service": "UBI",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": true,
+            "service": "WIFIHOTSPOT",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": false,
+            "service": "IVA",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "IVAD",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "IVM",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "IVMD",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "SVCSUBMSSG",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CONTIMAIN",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "FTD",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": true,
+            "service": "IPCS",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CALLMAN",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "PARENT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "BCALL",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ECALL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "SVLAAPP",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "FOTA",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "NAV_OB_TRAFFIC",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "NAV_OB_WEATHER",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "NAV_OB_SPEED_CAMERA",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "NAV_OB_SEARCH",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "PHEV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NAV_OB_FUEL_FINDER",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NAV_OB_PARKING_FINDER",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "VHS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "CSL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "EVNOT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "CPPLUS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CNOW",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "DEEPREFRESH",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CHRGSETTING",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NAV_OB_ROUTE_DRM",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "SDV_DMN",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NAVAUTH",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ORP",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COST9YP",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COST9YT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COSTUGQ",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COSTUGM",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COSTUHN",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COST07W",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "LASTMILE",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "DUMMY",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NAV_OB_MOTA_WIFI",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NAV_OB_MOTA_CELL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NAV_OB_MOTA_WIFI_CELL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ELECPAGES",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "WIFIP",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ECOSERVICE",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ALEXAVA",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "DASS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ECOCOACHINGR1",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "FLEET",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "MACMEDIAAPP",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "MYECHG",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "AOTACI",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "TA_SUP",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "SOSR1",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROPRECOND",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "EVROUT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CSL_NAV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "MYCAR",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "G25CALL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROC2",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_TBM",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ECALLONLY",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COST2PZ",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "TPPAGES",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COSTUHL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "COST1GK",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CPA",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "TRIPREPORT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_RADIOUSAGE",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "SVC_SCHEDULE",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "SVC_STATUS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_FTD",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_HU",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_UBI",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_SQDF",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROTRUNKUNLOCK",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "ROCLRPERSDATA",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": false,
+            "service": "RVS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ECOCOACHING20",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "FLEETENROLL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "MOTA_MONTH",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "MOTA_TRIP",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "MOTA_CELL",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "MOTA_WIFI",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "TUTORIALS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ASOSBT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "BRAND",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "BRANDBT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CARE",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CAREBT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CCSEV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "EVROUT1",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "NAV_OB_ROUTE_DRM15",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROAD",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROADBT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ROPRECOND_OFF",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CPCHRG2",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "KIRIPHEV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ORPPLUS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "PHEVON",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CSEV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NFT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "CPPLUSBEV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "DUMMY2",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "SLI",
+            "serviceEnabled": true
+          },
+          {
+            "vehicleCapable": false,
+            "service": "NAV_OB_ROUTE_DRM20",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": true,
+            "service": "DUMMY4",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "MYENT",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "INCARNAVADS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_DOORSSTS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_THERMCOND",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_REMLEV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_PRIVACY",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_GENSTS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_CRASHSTS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_MAINTSTS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_LOCATION",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_QUALITY_ICE",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_QUALITY_BEV",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_USAGESTS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_ALTMEDIUM",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_JDA",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_ADAS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_X250_OBFCM",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "DUMMY319APP",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "ADA_PLUS",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "IVWW",
+            "serviceEnabled": false
+          },
+          {
+            "vehicleCapable": false,
+            "service": "DUMMY3",
+            "serviceEnabled": false
+          }
+        ],
+        "enrollmentStatus": "COMPLETE",
+        "channelFeatures": [],
+        "privacyMode": "INACTIVE",
+        "tc": {
+          "activation": {
+            "status": "Accepted",
+            "version": "us1.0.1"
+          },
+          "registration": {
+            "status": "Accepted",
+            "version": "1.0.1"
+          }
+        },
+        "cslProvider": "F2M"
+      }
+    ]
+  },
+  "https://channels.sdpr-01.fcagcv.com/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/status": {
+    "vehicleInfo": {
+      "totalRangeADA": null,
+      "distanceUnit": "km",
+      "odometer": {
+        "odometer": {
+          "value": "35025",
+          "unit": "km"
+        }
+      },
+      "daysToService": "null",
+      "hvbatSOH": null,
+      "fuel": {
+        "fuelAmountLevel": 96,
+        "isFuelLevelLow": false,
+        "distanceToEmpty": {
+          "value": "560",
+          "unit": "km"
+        },
+        "fuelAmount": {
+          "value": "59.0",
+          "unit": "l"
+        }
+      },
+      "oilLevel": {
+        "oilLevel": 95
+      },
+      "tyrePressure": [
+        {
+          "warning": false,
+          "pressure": {
+            "value": "268.905",
+            "unit": "kPa"
+          },
+          "type": "FL",
+          "status": "NORMAL"
+        },
+        {
+          "warning": false,
+          "pressure": {
+            "value": "275.79999999999995",
+            "unit": "kPa"
+          },
+          "type": "FR",
+          "status": "NORMAL"
+        },
+        {
+          "warning": false,
+          "pressure": {
+            "value": "268.905",
+            "unit": "kPa"
+          },
+          "type": "RL",
+          "status": "NORMAL"
+        },
+        {
+          "warning": false,
+          "pressure": {
+            "value": "275.79999999999995",
+            "unit": "kPa"
+          },
+          "type": "RR",
+          "status": "NORMAL"
+        }
+      ],
+      "batteryInfo": {
+        "highVoltageBatterylevel": null,
+        "batteryStateOfChargeEnhanced": null,
+        "eventType": null,
+        "batteryStatus": "0",
+        "batteryVoltage": {
+          "value": "14.3",
+          "unit": "volts"
+        },
+        "batteryStateOfCharge": "null"
+      },
+      "tripsInfo": {
+        "trips": [
+          {
+            "totalElectricDistance": {
+              "value": "447.2",
+              "unit": "km"
+            },
+            "name": "TripA",
+            "totalDistance": {
+              "value": "841",
+              "unit": "km"
+            },
+            "energyUsed": {
+              "value": "12",
+              "unit": "kmpl"
+            },
+            "averageEnergyUsed": {
+              "value": "12",
+              "unit": "kmpl"
+            },
+            "totalHybridDistance": {
+              "value": "393.8",
+              "unit": "km"
+            }
+          },
+          {
+            "totalElectricDistance": {
+              "value": "447.2",
+              "unit": "km"
+            },
+            "name": "TripB",
+            "totalDistance": {
+              "value": "841",
+              "unit": "km"
+            },
+            "energyUsed": {
+              "value": "12",
+              "unit": "kmpl"
+            },
+            "averageEnergyUsed": {
+              "value": "12",
+              "unit": "kmpl"
+            },
+            "totalHybridDistance": {
+              "value": "393.8",
+              "unit": "km"
+            }
+          }
+        ]
+      },
+      "batPwrUsageDisp": null,
+      "estRange": null,
+      "distanceToService": {
+        "distanceToService": {
+          "value": "null",
+          "unit": "km"
+        }
+      },
+      "wheelCount": 4,
+      "hvacPwrUsageDisp": null,
+      "mtrPwrUsageDisp": null,
+      "tpmsvehicle": false,
+      "isTPMSVehicle": false,
+      "HVBatSOH": null,
+      "timestamp": 1771580145490
+    },
+    "evInfo": {
+      "battery": {
+        "distanceToEmpty": null,
+        "totalRange": 560,
+        "stateOfCharge": null
+      },
+      "timestamp": 1771580145490
+    },
+    "timestamp": 1771580145490
+  }
+}

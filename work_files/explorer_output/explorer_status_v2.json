@@ -1,0 +1,152 @@
+{
+  "vehicleInfo": {
+    "totalRangeADA": null,
+    "distanceUnit": "km",
+    "odometer": {
+      "odometer": {
+        "value": "35125",
+        "unit": "km"
+      }
+    },
+    "daysToService": "null",
+    "hvbatSOH": null,
+    "fuel": {
+      "fuelAmountLevel": 78,
+      "isFuelLevelLow": false,
+      "distanceToEmpty": {
+        "value": "467",
+        "unit": "km"
+      },
+      "fuelAmount": {
+        "value": "48.0",
+        "unit": "l"
+      }
+    },
+    "oilLevel": {
+      "oilLevel": 95
+    },
+    "tyrePressure": [
+      {
+        "warning": false,
+        "pressure": {
+          "value": "275.79999999999995",
+          "unit": "kPa"
+        },
+        "type": "FL",
+        "status": "NORMAL"
+      },
+      {
+        "warning": false,
+        "pressure": {
+          "value": "282.695",
+          "unit": "kPa"
+        },
+        "type": "FR",
+        "status": "NORMAL"
+      },
+      {
+        "warning": false,
+        "pressure": {
+          "value": "275.79999999999995",
+          "unit": "kPa"
+        },
+        "type": "RL",
+        "status": "NORMAL"
+      },
+      {
+        "warning": false,
+        "pressure": {
+          "value": "282.695",
+          "unit": "kPa"
+        },
+        "type": "RR",
+        "status": "NORMAL"
+      }
+    ],
+    "batteryInfo": {
+      "highVoltageBatterylevel": null,
+      "batteryStateOfChargeEnhanced": null,
+      "eventType": null,
+      "batteryStatus": "0",
+      "batteryVoltage": {
+        "value": "14.5",
+        "unit": "volts"
+      },
+      "batteryStateOfCharge": "null"
+    },
+    "tripsInfo": {
+      "trips": [
+        {
+          "totalElectricDistance": {
+            "value": "447.2",
+            "unit": "km"
+          },
+          "name": "TripA",
+          "totalDistance": {
+            "value": "941",
+            "unit": "km"
+          },
+          "energyUsed": {
+            "value": "11",
+            "unit": "kmpl"
+          },
+          "averageEnergyUsed": {
+            "value": "11",
+            "unit": "kmpl"
+          },
+          "totalHybridDistance": {
+            "value": "494.1",
+            "unit": "km"
+          }
+        },
+        {
+          "totalElectricDistance": {
+            "value": "447.2",
+            "unit": "km"
+          },
+          "name": "TripB",
+          "totalDistance": {
+            "value": "941",
+            "unit": "km"
+          },
+          "energyUsed": {
+            "value": "11",
+            "unit": "kmpl"
+          },
+          "averageEnergyUsed": {
+            "value": "11",
+            "unit": "kmpl"
+          },
+          "totalHybridDistance": {
+            "value": "494.1",
+            "unit": "km"
+          }
+        }
+      ]
+    },
+    "batPwrUsageDisp": null,
+    "estRange": null,
+    "distanceToService": {
+      "distanceToService": {
+        "value": "null",
+        "unit": "km"
+      }
+    },
+    "wheelCount": 4,
+    "hvacPwrUsageDisp": null,
+    "mtrPwrUsageDisp": null,
+    "tpmsvehicle": false,
+    "isTPMSVehicle": false,
+    "HVBatSOH": null,
+    "timestamp": 1771827730785
+  },
+  "evInfo": {
+    "battery": {
+      "distanceToEmpty": null,
+      "totalRange": 467,
+      "stateOfCharge": null
+    },
+    "timestamp": 1771827730785
+  },
+  "timestamp": 1771827730785
+}

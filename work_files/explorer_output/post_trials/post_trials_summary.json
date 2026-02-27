@@ -1,0 +1,34 @@
+{
+  "location": {
+    "url": "https://channels.sdpr-01.fcagcv.com/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/location",
+    "status": 404,
+    "body": {
+      "name": "NOT_FOUND",
+      "message": "No method found matching route v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/location for http method POST."
+    }
+  },
+  "notifications": {
+    "url": "https://channels.sdpr-01.fcagcv.com/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/notifications",
+    "status": 404,
+    "body": {
+      "name": "NOT_FOUND",
+      "message": "No method found matching route v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/notifications for http method POST."
+    }
+  },
+  "commands": {
+    "url": "https://channels.sdpr-01.fcagcv.com/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/commands",
+    "status": 404,
+    "body": {
+      "name": "NOT_FOUND",
+      "message": "No method found matching route v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/commands for http method POST."
+    }
+  },
+  "services_v4": {
+    "url": "https://channels.sdpr-01.fcagcv.com/v4/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/services",
+    "status": 404,
+    "body": {
+      "name": "NOT_FOUND",
+      "message": "No method found matching route v4/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/services for http method POST."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "captured_requests": [
+    {
+      "method": "GET",
+      "url": "https://login.jeep.com/accounts.webSdkBootstrap",
+      "full_url": "https://login.jeep.com/accounts.webSdkBootstrap",
+      "parsed": "ParseResult(scheme='https', netloc='login.jeep.com', path='/accounts.webSdkBootstrap', params='', query='', fragment='')"
+    },
+    {
+      "method": "POST",
+      "url": "https://login.jeep.com/accounts.login",
+      "full_url": "https://login.jeep.com/accounts.login",
+      "parsed": "ParseResult(scheme='https', netloc='login.jeep.com', path='/accounts.login', params='', query='', fragment='')"
+    },
+    {
+      "method": "POST",
+      "url": "https://login.jeep.com/accounts.getJWT",
+      "full_url": "https://login.jeep.com/accounts.getJWT",
+      "parsed": "ParseResult(scheme='https', netloc='login.jeep.com', path='/accounts.getJWT', params='', query='', fragment='')"
+    },
+    {
+      "method": "POST",
+      "url": "https://authz.sdpr-01.fcagcv.com/v2/cognito/identity/token",
+      "full_url": "https://authz.sdpr-01.fcagcv.com/v2/cognito/identity/token",
+      "parsed": "ParseResult(scheme='https', netloc='authz.sdpr-01.fcagcv.com', path='/v2/cognito/identity/token', params='', query='', fragment='')"
+    },
+    {
+      "method": "GET",
+      "url": "https://channels.sdpr-01.fcagcv.com/v4/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles",
+      "full_url": "https://channels.sdpr-01.fcagcv.com/v4/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles",
+      "parsed": "ParseResult(scheme='https', netloc='channels.sdpr-01.fcagcv.com', path='/v4/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles', params='', query='', fragment='')"
+    },
+    {
+      "method": "GET",
+      "url": "https://channels.sdpr-01.fcagcv.com/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/status",
+      "full_url": "https://channels.sdpr-01.fcagcv.com/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/status",
+      "parsed": "ParseResult(scheme='https', netloc='channels.sdpr-01.fcagcv.com', path='/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/status', params='', query='', fragment='')"
+    }
+  ],
+  "by_domain": {
+    "https://login.jeep.com": [
+      {
+        "method": "GET",
+        "endpoint": "/accounts.webSdkBootstrap",
+        "full_url": "https://login.jeep.com/accounts.webSdkBootstrap"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/accounts.login",
+        "full_url": "https://login.jeep.com/accounts.login"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/accounts.getJWT",
+        "full_url": "https://login.jeep.com/accounts.getJWT"
+      }
+    ],
+    "https://authz.sdpr-01.fcagcv.com": [
+      {
+        "method": "POST",
+        "endpoint": "/v2/cognito/identity/token",
+        "full_url": "https://authz.sdpr-01.fcagcv.com/v2/cognito/identity/token"
+      }
+    ],
+    "https://channels.sdpr-01.fcagcv.com": [
+      {
+        "method": "GET",
+        "endpoint": "/v4/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles",
+        "full_url": "https://channels.sdpr-01.fcagcv.com/v4/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/status",
+        "full_url": "https://channels.sdpr-01.fcagcv.com/v2/accounts/7f8edc00b9f6491e8963f106afda53f1/vehicles/1C4JJXR66MW811502/status"
+      }
+    ]
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "metadata": {
+    "userId": "7f8edc00b9f6491e8963f106afda53f1",
+    "version": 1770483439409,
+    "timestamp": "2026-02-20T11:35:26Z"
+  },
+  "vehicles": [
+    {
+      "basicInfo": {
+        "vin": "1C4JJXR66MW811502",
+        "nickname": "Wrangler Black",
+        "make": "Jeep",
+        "model": "688",
+        "modelDescription": "WRANGLER PHEV",
+        "year": 2021,
+        "color": "BLACK C/C",
+        "fuelType": "H",
+        "transmission": "PHEV",
+        "tsoBodyCode": "JL",
+        "tsoModelYear": "2021"
+      },
+      "location": {
+        "market": "CZ",
+        "soldRegion": "EMEA",
+        "company": "FCA",
+        "brandCode": "57"
+      },
+      "status": {
+        "enrollmentStatus": "COMPLETE",
+        "registrationStatus": "COMPLETED_STAGE_3",
+        "customerRegStatus": "Y",
+        "privacyMode": "INACTIVE",
+        "activationSource": "DEALER",
+        "regTimestamp": 1770483439409,
+        "isCompanyCar": false
+      },
+      "connectivity": {
+        "navEnabledHU": false,
+        "tcuType": "2",
+        "sdp": "IGNITE",
+        "radio": "",
+        "language": ""
+      },
+      "termsConditions": {
+        "activation": {
+          "status": "Accepted",
+          "version": "us1.0.1"
+        },
+        "registration": {
+          "status": "Accepted",
+          "version": "1.0.1"
+        }
+      },
+      "svla": {
+        "status": "INACTIVE",
+        "timestamp": 0
+      },
+      "enabledServices": [
+        {
+          "service": "SQDF",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "ROC",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "SOS",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "ASOS",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "VRC",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "HUC",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "AOTAC",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "UBI",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "WIFIHOTSPOT",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "FTD",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "IPCS",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "BCALL",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "DUMMY",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "ROCLRPERSDATA",
+          "vehicleCapable": true,
+          "enabled": true
+        },
+        {
+          "service": "SLI",
+          "vehicleCapable": true,
+          "enabled": true
+        }
+      ],
+      "disabledServices": [
+        {
+          "service": "RDL",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "RDU",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "ROSECUREDELIVERY",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "SDV",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "VHSG",
+          "vehicleCapable": false,
+          "enabled": false
+        },
+        {
+          "service": "ASSIST",
+          "vehicleCapable": false,
+          "enabled": false
+        },
+        {
+          "service": "VF",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "SVLA",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "DTC",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "PHEV",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "NAV_OB_TRAFFIC",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "NAV_OB_WEATHER",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "NAV_OB_SPEED_CAMERA",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "NAV_OB_SEARCH",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "NAV_OB_ROUTE_DRM15",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "KIRIPHEV",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "MYECHG",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "DUMMY2",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "DUMMY4",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "DASS",
+          "vehicleCapable": true,
+          "enabled": false
+        }
+      ],
+      "capableButNotEnabled": [
+        {
+          "service": "PARENT",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "SVLAAPP",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "FOTA",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "VHS",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "CSL",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "CPPLUS",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "DEEPREFRESH",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "TA",
+          "vehicleCapable": true,
+          "enabled": false
+        },
+        {
+          "service": "TA_SUP",
+          "vehicleCapable": true,
+          "enabled": false
+        }
+      ],
+      "notCapableServices": [
+        "VHSG",
+        "ASSIST",
+        "ROCRANKINHIBITON",
+        "ROCRANKINHIBITOFF",
+        "ROLIGHTS",
+        "IVA",
+        "IVAD",
+        "IVM",
+        "IVMD",
+        "SVCSUBMSSG",
+        "CONTIMAIN",
+        "CALLMAN",
+        "ECALL",
+        "NAV_OB_FUEL_FINDER",
+        "NAV_OB_PARKING_FINDER",
+        "EVNOT",
+        "CNOW",
+        "CHRGSETTING",
+        "NAV_OB_ROUTE_DRM",
+        "SDV_DMN",
+        "NAVAUTH",
+        "ORP",
+        "COST9YP",
+        "COST9YT",
+        "COSTUGQ",
+        "COSTUGM",
+        "COSTUHN",
+        "COST07W",
+        "LASTMILE",
+        "NAV_OB_MOTA_WIFI",
+        "NAV_OB_MOTA_CELL",
+        "NAV_OB_MOTA_WIFI_CELL",
+        "ELECPAGES",
+        "WIFIP",
+        "ECOSERVICE",
+        "ALEXAVA",
+        "ECOCOACHINGR1",
+        "FLEET",
+        "MACMEDIAAPP",
+        "AOTACI",
+        "SOSR1",
+        "ROPRECOND",
+        "EVROUT",
+        "CSL_NAV",
+        "MYCAR",
+        "G25CALL",
+        "ROC2",
+        "ADA_TBM",
+        "ECALLONLY",
+        "COST2PZ",
+        "TPPAGES",
+        "COSTUHL",
+        "COST1GK",
+        "CPA",
+        "TRIPREPORT",
+        "ADA_RADIOUSAGE",
+        "SVC_SCHEDULE",
+        "SVC_STATUS",
+        "ADA_FTD",
+        "ADA_HU",
+        "ADA_UBI",
+        "ADA_SQDF",
+        "ROTRUNKUNLOCK",
+        "RVS",
+        "ECOCOACHING20",
+        "FLEETENROLL",
+        "MOTA_MONTH",
+        "MOTA_TRIP",
+        "MOTA_CELL",
+        "MOTA_WIFI",
+        "TUTORIALS",
+        "ASOSBT",
+        "BRAND",
+        "BRANDBT",
+        "CARE",
+        "CAREBT",
+        "CCSEV",
+        "EVROUT1",
+        "ROAD",
+        "ROADBT",
+        "ROPRECOND_OFF",
+        "CPCHRG2",
+        "ORPPLUS",
+        "PHEVON",
+        "CSEV",
+        "NFT",
+        "CPPLUSBEV",
+        "NAV_OB_ROUTE_DRM20",
+        "MYENT",
+        "INCARNAVADS",
+        "ADA_X250_DOORSSTS",
+        "ADA_X250_THERMCOND",
+        "ADA_X250_REMLEV",
+        "ADA_X250_PRIVACY",
+        "ADA_X250_GENSTS",
+        "ADA_X250_CRASHSTS",
+        "ADA_X250_MAINTSTS",
+        "ADA_X250_LOCATION",
+        "ADA_X250_QUALITY_ICE",
+        "ADA_X250_QUALITY_BEV",
+        "ADA_X250_USAGESTS",
+        "ADA_X250_ALTMEDIUM",
+        "ADA_X250_JDA",
+        "ADA_X250_ADAS",
+        "ADA_X250_OBFCM",
+        "DUMMY319APP",
+        "ADA_PLUS",
+        "IVWW",
+        "DUMMY3"
+      ],
+      "channelFeatures": [],
+      "cslProvider": "F2M"
+    }
+  ],
+  "serviceSummary": {
+    "totalServices": 122,
+    "enabledServices": 15,
+    "disabledButCapableServices": 19,
+    "notCapableServices": 88
+  }
+}

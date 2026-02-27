@@ -1,0 +1,310 @@
+{
+  "api_documentation": {
+    "version": "1.0.8",
+    "base_url": "https://developers.stellantis.com/",
+    "documentations": [
+      "https://developers.stellantis.com/apidocs.html (Swagger UI)",
+      "https://developers.stellantis.com/docs.html (ReDoc)"
+    ],
+    "categories": {
+      "Authorization": [
+        {
+          "method": "POST",
+          "endpoint": "/v1/auth/token",
+          "description": "Retrieve a bearer token with API credentials",
+          "required_params": ["email", "password"],
+          "returns": "AuthTokenResponse"
+        }
+      ],
+      "Account": [
+        {
+          "method": "GET",
+          "endpoint": "/v1/account",
+          "description": "Get details of account, showing all linked accounts",
+          "required_params": [],
+          "returns": "GetAccountResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/account/register",
+          "description": "Request API Credentials",
+          "required_params": [],
+          "returns": "RegisterResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/account/link",
+          "description": "Link an API account to Connected Vehicle account",
+          "required_params": [],
+          "returns": "AccountLinkResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/account/unlink",
+          "description": "Unlink / Remove Connected Vehicle account from API account",
+          "required_params": [],
+          "returns": "UnlinkResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/account/setpassword",
+          "description": "Update API account password",
+          "required_params": ["currentPassword", "newPassword"],
+          "returns": "SetPasswordResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/account/resetpassword",
+          "description": "Reset password via email",
+          "required_params": ["email"],
+          "returns": "ResetPasswordResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/account/delete",
+          "description": "Permanently Delete API account",
+          "required_params": [],
+          "returns": "AccountDeleteResponse"
+        }
+      ],
+      "Vehicle Data": [
+        {
+          "method": "GET",
+          "endpoint": "/v1/{vin}/data/",
+          "description": "Retrieves array of recent data sensor values",
+          "path_params": ["vin"],
+          "query_params": ["limit", "offset"],
+          "returns": "DataResponse"
+        },
+        {
+          "method": "GET",
+          "endpoint": "/v1/{vin}/data/lastknown",
+          "description": "Retrieves last known data sensor values for a vehicle",
+          "path_params": ["vin"],
+          "returns": "DataLastKnownResponse"
+        }
+      ],
+      "Remote Commands": [
+        {
+          "method": "POST",
+          "endpoint": "/v1/{vin}/remote",
+          "description": "Sends remote commands to vehicle",
+          "path_params": ["vin"],
+          "body_params": ["command", "parameters"],
+          "returns": "RemoteCommandResponse",
+          "available_commands": [
+            "LOCK",
+            "UNLOCK",
+            "LIGHTS_ON",
+            "LIGHTS_OFF",
+            "ENGINE_START",
+            "ENGINE_STOP",
+            "CLIMATE_ON",
+            "CLIMATE_OFF",
+            "CHARGE_START",
+            "CHARGE_STOP"
+          ]
+        }
+      ],
+      "Streaming": [
+        {
+          "method": "GET",
+          "endpoint": "/v1/stream/{vin}",
+          "description": "Retrieve streaming endpoints for the vin's data",
+          "path_params": ["vin"],
+          "returns": "GetVINStreamingEndpointsResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/stream/{vin}",
+          "description": "Add streaming endpoints",
+          "path_params": ["vin"],
+          "body_params": ["endpoints"],
+          "returns": "Response"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/stream/{vin}/remove",
+          "description": "Removes an endpoint from the list of endpoints where stream data is sent",
+          "path_params": ["vin"],
+          "body_params": ["endpoint"],
+          "returns": "Response"
+        },
+        {
+          "method": "DELETE",
+          "endpoint": "/v1/stream/{vin}",
+          "description": "Delete information about the VIN streaming endpoints",
+          "path_params": ["vin"],
+          "returns": "Response"
+        }
+      ],
+      "Geofencing": [
+        {
+          "method": "GET",
+          "endpoint": "/v1/geofence-breaches",
+          "description": "Get details of all breach events",
+          "query_params": ["vin", "limit", "offset"],
+          "returns": "GetGeofenceBreachesResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofence-collection",
+          "description": "Create geofence collection",
+          "body_params": ["name", "entries"],
+          "returns": "CreateGeofenceCollectionResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofence-collection/{collection}/batch-put-geofence",
+          "description": "Batch put geofence in collection",
+          "path_params": ["collection"],
+          "body_params": ["geofences"],
+          "returns": "Response"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofence-collection/{collection}/batch-delete-geofence",
+          "description": "Batch delete geofence",
+          "path_params": ["collection"],
+          "body_params": ["geofenceIds"],
+          "returns": "Response"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofence-collection/{collection}/delete",
+          "description": "Delete geofence collection",
+          "path_params": ["collection"],
+          "returns": "Response"
+        }
+      ],
+      "Geofencing Notifications": [
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofencing-notifications/subscription",
+          "description": "Create a subscription for a vin and a geofence collection",
+          "body_params": ["vin", "collectionId"],
+          "returns": "Response"
+        },
+        {
+          "method": "GET",
+          "endpoint": "/v1/geofencing-notifications/subscription",
+          "description": "Retrieve subscription information for a vin and a geofence collection",
+          "query_params": ["vin", "collectionId"],
+          "returns": "Response"
+        },
+        {
+          "method": "DELETE",
+          "endpoint": "/v1/geofencing-notifications/subscription",
+          "description": "Delete geofencing subscription",
+          "query_params": ["vin", "collectionId"],
+          "returns": "Response"
+        },
+        {
+          "method": "GET",
+          "endpoint": "/v1/geofencing-notifications/subscriptions",
+          "description": "Get details of all subscriptions",
+          "returns": "Response"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofencing-notifications/enable",
+          "description": "Enable geofencing notifications for a vin and geofence collection",
+          "body_params": ["vin", "collectionId"],
+          "returns": "Response"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofencing-notifications/disable",
+          "description": "Disable geofencing notifications",
+          "body_params": ["vin", "collectionId"],
+          "returns": "Response"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofencing-notifications/subscribe",
+          "description": "Subscribe to geofencing notifications",
+          "body_params": ["vin", "collectionId"],
+          "returns": "Response"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/geofencing-notifications/unsubscribe",
+          "description": "Unsubscribe from geofencing notifications",
+          "body_params": ["vin", "collectionId"],
+          "returns": "Response"
+        }
+      ],
+      "Feedback": [
+        {
+          "method": "POST",
+          "endpoint": "/v1/feedback",
+          "description": "Submit general feedback, questions, comments to Stellantis",
+          "body_params": ["message", "email"],
+          "returns": "FeedbackResponse"
+        },
+        {
+          "method": "POST",
+          "endpoint": "/v1/bugs",
+          "description": "Submit Bug Report",
+          "body_params": ["title", "description", "steps", "email"],
+          "returns": "BugsResponse"
+        }
+      ]
+    },
+    "authentication": {
+      "type": "Bearer Token",
+      "flow": "OAuth2",
+      "steps": [
+        "1. POST /v1/auth/token with email and password",
+        "2. Receive bearer token in response",
+        "3. Use token in Authorization header: 'Bearer <token>'",
+        "4. Token expires after configured duration"
+      ]
+    },
+    "common_parameters": {
+      "path_params": {
+        "vin": "Vehicle Identification Number (required for vehicle-specific endpoints)"
+      },
+      "query_params": {
+        "limit": "Maximum number of records to return (pagination)",
+        "offset": "Starting position for records (pagination)"
+      },
+      "headers": {
+        "Authorization": "Bearer <token>",
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      }
+    },
+    "http_status_codes": {
+      "200": "Success",
+      "400": "Bad input parameter",
+      "401": "Unauthorized (missing/invalid token)",
+      "403": "Forbidden (not authorized for this resource)",
+      "500": "Internal server error"
+    },
+    "data_types_returned": [
+      "AuthTokenResponse",
+      "RemoteCommand",
+      "RemoteCommandResponse",
+      "DataResponse",
+      "DataLastKnownResponse",
+      "GetAccountResponse",
+      "RegisterResponse",
+      "AccountLinkResponse",
+      "UnlinkResponse",
+      "SetPasswordResponse",
+      "ResetPasswordResponse",
+      "AccountDeleteResponse",
+      "FeedbackResponse",
+      "BugsResponse",
+      "GetGeofenceBreachesResponse",
+      "CreateGeofenceCollectionResponse",
+      "GetVINStreamingEndpointsResponse"
+    ],
+    "notes": {
+      "note1": "For former PSA groupe vehicles (Citroen, DS, Opel, Peugeot), visit https://developer.groupe-psa.io/",
+      "note2": "Contact: fca-cloud-api@developers.stellantis.com",
+      "note3": "License: Apache 2.0"
+    }
+  }
+}
